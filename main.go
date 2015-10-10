@@ -1,11 +1,10 @@
 package main
 
 import (
-	_ "github.com/php0532/cms/routers"
 	"github.com/astaxie/beego"
+	_ "github.com/php0532/gotocms/routers"
 )
 
 func main() {
 	beego.Run()
 }
-
